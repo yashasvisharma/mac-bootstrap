@@ -33,9 +33,9 @@ export BOOTSTRAP_DIR=$HOME/mac-bootstrap
 
 DEFAULT_BOOTSTRAP_BRANCH="master"
 DEFAULT_DOTFILES_BRANCH="master"
-DEFAULT_COMPUTER_NAME="Joshua's Mac"
-DEFAULT_HOST_NAME="joshuas-mac"
-DEFAULT_TIME_ZONE="Europe/Kiev"
+DEFAULT_COMPUTER_NAME="Yash's Mac"
+DEFAULT_HOST_NAME="yashs-mac"
+DEFAULT_TIME_ZONE="America/Chicago"
 DEFAULT_NODEJS_VERSION="8.12.0"
 DEFAULT_RUBY_VERSION="2.5.3"
 
@@ -86,8 +86,6 @@ echo
 echo "*************************************************************************"
 echo "*******                                                           *******"
 echo "*******                 Welcome to Mac Bootstrap!                 *******"
-echo "*******                                                           *******"
-echo "*******                   https://jsua.co/macos                   *******"
 echo "*******                                                           *******"
 echo "*************************************************************************"
 echo
