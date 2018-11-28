@@ -1,3 +1,5 @@
+*Inspired by [joshukraine]:https://github.com/joshukraine/mac-bootstrap*
+
 # Mac Bootstrap
 
 ![mac-bootstrap screenshot][screenshot]
@@ -11,8 +13,6 @@ The [`bootstrap`][bootstrap] script is very specific to the Mac platform. Versio
 Previous versions of Mac Bootstrap have been successfully tested on the following versions of macOS:
 
 * High Sierra (10.13)
-* Sierra (10.12)
-* El Capitan (10.11)
 
 &#9657; **Looking for dotfiles only? Check out [My Dotfiles for macOS](http://jsua.co/dotfiles)**
 
