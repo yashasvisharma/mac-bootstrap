@@ -249,9 +249,9 @@ bootstrap_echo "Done!"
 # * http://extensions.services.openoffice.org/en/project/ukrainian-dictionary
 ################################################################################
 
-bootstrap_echo "Step 6: Installing Ukrainian language utilities..."
+bootstrap_echo "Step 6: Installing ~/.vimrc ..."
 
-cp "$BOOTSTRAP_DIR"/lib/{hyph_uk.dic,uk_UA.aff,uk_UA.dic} "$DICTIONARY_DIR"
+git clone https://github.com/CaffeineViking/vimrc.git ~/.vim_temp && cd ~/.vim_temp && ./setup.sh && rm -rf ~/.vim_temp && cd ~
 
 bootstrap_echo "Done!"
 
@@ -292,8 +292,6 @@ echo "**********************************************************************"
 echo "**********************************************************************"
 echo "****                                                              ****"
 echo "**** Mac Bootstrap script complete! Please restart your computer. ****"
-echo "****                                                              ****"
-echo "****                    https://jsua.co/macos                     ****"
 echo "****                                                              ****"
 echo "**********************************************************************"
 echo "**********************************************************************"
